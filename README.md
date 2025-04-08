@@ -9,8 +9,9 @@ It is used at our [institute](https://www.uni-ulm.de/in/mrm/) for research on re
 
 ## Features
 
-- an iterative, constrained, spatial trajectory planning method 
-- a practical MPC contouring controller with deadtime compensation
+- two fast, gpu-based dynamic programming methods for combined planning and decision finding
+- an iterative, constrained, spatial trajectory planning method
+- multiple practical (MPC) controllers with deadtime compensation
 - hot code reloading functionality (via [minireload](https://github.com/joruof/minireload))
 - modular architectur with simple shared memory IPC (via [structstore](https://github.com/mertemba/structstore)) 
 - an interactive and customizeable GUI (via [imviz](https://github.com/joruof/imviz) and [imdash](https://github.com/uulm-mrm/imdash))
@@ -64,6 +65,15 @@ This means that changes in the python code are reloaded live at runtime.
   booktitle={2024 American Control Conference (ACC)}, 
   title={Real-Time Spatial Trajectory Planning Under Lateral Contraints}, 
   year={2024},
+}
+```
+
+```
+@inproceedings{FAS_2025
+  author={Ruof, Jona and Dietmayer, Klaus},
+  booktitle={16. Uni-DAS e.V. Workshop Fahrerassistenz und automatisiertes Fahren}, 
+  title={Accelerated Dynamic Programming for Trajectory Planning of Automated Vehicles}, 
+  year={2025},
 }
 ```
 
